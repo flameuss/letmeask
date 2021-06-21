@@ -63,6 +63,8 @@ $ yarn
 # Rode o comando
 $ yarn start
 
+# Por padrão do ReactJS a aplicação rodará no seu  http://locallhost:3000/
+
 # Crie um arquivo .env.local e adicione dentro dele seus ids e tokens para seu projeto no firebase
     REACT_APP_API_KEY=" " 
     REACT_APP_AUTH_DOMAIN=" "
