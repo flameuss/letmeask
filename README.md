@@ -2,7 +2,7 @@
 <p align="center"> :computer: <strong>Em progresso ...</strong> 🚧</p>
 
 <p align="center"> 
-   <img src="https://img.shields.io/badge/version-0.0.1-blue.svg" />
+   <img src="https://img.shields.io/badge/version-0.0.1-red.svg" />
   
   <a href="https://github.com/Flameuss">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
@@ -63,15 +63,15 @@ $ yarn
 # Rode o comando
 $ yarn start
 
-# Crie um arquivo .env.local e adicione dentro dele seus ids  tokens para o seu projeto no firebase
-$ REACT_APP_API_KEY=" " 
-REACT_APP_AUTH_DOMAIN=" "
-REACT_APP_DATABASE_URL=" "
-REACT_APP_PROJECT_ID=" "
-REACT_APP_STORAGE_BUCKET=" "
-REACT_APP_MESSAGING_SENDER_ID=" "
-REACT_APP_APP_ID=" "
-
+# Crie um arquivo .env.local e adicione dentro dele seus ids e tokens para seu projeto no firebase
+    REACT_APP_API_KEY=" " 
+    REACT_APP_AUTH_DOMAIN=" "
+    REACT_APP_DATABASE_URL=" "
+    REACT_APP_PROJECT_ID=" "
+    REACT_APP_STORAGE_BUCKET=" "
+    REACT_APP_MESSAGING_SENDER_ID=" "
+    REACT_APP_APP_ID=" "
+# E lembre-se que o passo acima é somente para seu uso ! caso faça uma branch desse projeto nao deixe seus ids e tokens em nenhuma parte do código para terceiros!
 ```
 
 <br>
