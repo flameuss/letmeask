@@ -31,7 +31,7 @@
 
 ## 💻 Sobre o projeto
 
-:memo: Sistema de votação de perguntas no chat Letmeask
+:memo: Sistema de votação de perguntas com classificação de relevancia pelo publico no chat <b>Letmeask</b>.
 
 <br>
 
