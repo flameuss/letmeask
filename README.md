@@ -1,46 +1,115 @@
-# Getting Started with Create React App
+ 
+<p align="center"> :computer: <strong>Em progresso ...</strong> 🚧</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center"> 
+   <img src="https://img.shields.io/badge/version-0.0.1-blue.svg" />
+  
+  <a href="https://github.com/Flameuss">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
+  </a>
+ 
+ <a href="https://github.com/Flameuss">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-blue.svg" target="_blank" />
+  </a>
+</p>
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
+## :pushpin: Índice
 
-### `yarn start`
+- [Sobre](#sobre-o-projeto)
+- [Progresso](#progresso)
+- [Como executar](#executar)
+- [Tecnologias](#tecnologia)
+- [Desenvolvido por](#desenvolvido)
+- [Licença](#licenca)
+- [Agradecimentos](#agradecimentos)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<br>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<a id="sobre-o-projeto"></a>
 
-### `yarn test`
+## 💻 Sobre o projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+:memo: Sistema de votação de perguntas no chat Letmeask
 
-### `yarn build`
+<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<a id="executar"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Como executar o projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Pré-requisitos
 
-### `yarn eject`
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e o gerenciador de pacotes [Yarn](https://yarnpkg.com/).
+Além disto é bom ter um editor para trabalhar com o código, como [VSCode](https://code.visualstudio.com/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<br>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### 🧭 Executando o programa
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Clone esse repositório
+$ git clone main git@github.com:Flameuss/letmeask.git
 
-## Learn More
+# Entre na pasta
+$ cd letmeask
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Instale as depedências
+$ yarn
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Rode o comando
+$ yarn start
+
+# Crie um arquivo .env.local e adicione dentro dele seus ids  tokens para o seu projeto no firebase
+$ REACT_APP_API_KEY=" " 
+REACT_APP_AUTH_DOMAIN=" "
+REACT_APP_DATABASE_URL=" "
+REACT_APP_PROJECT_ID=" "
+REACT_APP_STORAGE_BUCKET=" "
+REACT_APP_MESSAGING_SENDER_ID=" "
+REACT_APP_APP_ID=" "
+
+```
+
+<br>
+
+<a id="tecnologia"></a>
+
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [Firebase](https://www.mongodb.com/)
+- [Node.js](https://nodejs.org/en/)
+- [React.js](https://pt-br.reactjs.org/)
+
+<br>
+
+<a id="desenvolvido"></a>
+
+## :tada: Desenvolvido por ✨
+
+<table>
+  <tr>
+<td align="center"><a href="https://github.com/Flameuss"><img src="https://avatars.githubusercontent.com/u/64844248?v=4" width="100px;" alt=""/><br /><sub><b>Luis Henrique</b></sub></a><br /><a href="#" title="Content">:rocket:</a></td>
+</tr>
+</table>
+
+<br>
+
+<a id="licenca"></a>
+
+## :memo: Licença
+
+Este projeto está sob a licença do MIT. Veja a [página de licença](https://opensource.org/licenses/MIT) para mais detalhes.
+
+<br>
+
+<a id="agradecimento"></a>
+
+## 💙 Agradecimentos
+
+Obrigado [Rocketseat](https://rocketseat.com.br/) por disponibilizar esse conteúdo top de mais 🚀.
