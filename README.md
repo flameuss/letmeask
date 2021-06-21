@@ -82,7 +82,7 @@ REACT_APP_APP_ID=" "
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [Firebase](https://www.mongodb.com/)
+- [Firebase](https://firebase.google.com/)
 - [Node.js](https://nodejs.org/en/)
 - [React.js](https://pt-br.reactjs.org/)
 
