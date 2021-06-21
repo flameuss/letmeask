@@ -71,6 +71,7 @@ $ yarn start
     REACT_APP_STORAGE_BUCKET=" "
     REACT_APP_MESSAGING_SENDER_ID=" "
     REACT_APP_APP_ID=" "
+
 # E lembre-se que o passo acima é somente para seu uso ! caso faça uma branch desse projeto nao deixe seus ids e tokens em nenhuma parte do código para terceiros!
 ```
 
@@ -92,7 +93,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## :tada: Desenvolvido por ✨
 
-<table>
+<table align="center">
   <tr>
 <td align="center"><a href="https://github.com/Flameuss"><img src="https://avatars.githubusercontent.com/u/64844248?v=4" width="100px;" alt=""/><br /><sub><b>Luis Henrique</b></sub></a><br /><a href="#" title="Content">:rocket:</a></td>
 </tr>
