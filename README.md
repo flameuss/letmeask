@@ -52,7 +52,7 @@ Além disto é bom ter um editor para trabalhar com o código, como [VSCode](htt
 ```bash
 
 # Clone esse repositório
-$ git clone main git@github.com:Flameuss/letmeask.git
+$ git clone git@github.com:Flameuss/letmeask.git
 
 # Entre na pasta
 $ cd letmeask
